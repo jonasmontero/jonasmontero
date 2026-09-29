@@ -158,11 +158,22 @@
 
 ---
 
-## GitHub Activity & Statistics
+## GitHub Metrics & Ecosystem Overview
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jonasmontero&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=10B981&text_color=E2E8F0" height="165" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jonasmontero&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=E2E8F0" height="165" alt="Top Languages" />
+
+| Public Repositories | Core Languages | AI & Protocols | Infrastructure |
+| :---: | :---: | :---: | :---: |
+| **8 Public Repos** | **Rust • C++ • Go • TypeScript** | **Model Context Protocol (MCP)** | **Ubuntu 24.04 LTS • Docker** |
+
+<br>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Primary_Stack-Rust_•_C++_•_Go_•_TypeScript_•_Wasm-0284C7?style=flat-square&labelColor=0F172A" alt="Primary Stack" />
+  <img src="https://img.shields.io/badge/Architecture-Sub--5ms_Latency_•_Zero--Alloc_•_Type--Safe-10B981?style=flat-square&labelColor=0F172A" alt="Architecture" />
+  <img src="https://img.shields.io/badge/CI_/_CD-GitHub_Actions_•_Automated_Testing-8B5CF6?style=flat-square&logo=githubactions&logoColor=white&labelColor=0F172A" alt="CI/CD" />
+</p>
+
 </div>
 
 ---
