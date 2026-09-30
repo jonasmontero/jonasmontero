@@ -1,11 +1,11 @@
 <div align="center">
 
 # Jonas Montero
-### Senior Software Engineer & Systems Architect
+### Software Engineer · Systems, Backend & Developer Tooling
 
 <p align="center">
   <a href="https://github.com/jonasmontero">
-    <img src="https://img.shields.io/badge/Focus-High--Performance_Systems_&_AI_Architecture-0284C7?style=flat-square" alt="Focus">
+    <img src="https://img.shields.io/badge/Focus-Systems_Programming_&_Developer_Tooling-0284C7?style=flat-square" alt="Focus">
   </a>
   <a href="https://github.com/jonasmontero">
     <img src="https://img.shields.io/badge/Stack-Rust_•_C++_•_Go_•_TypeScript_•_Wasm-0F172A?style=flat-square" alt="Stack">
@@ -16,19 +16,19 @@
 </p>
 
 <p align="center">
-  Building high-throughput backend services, perceptual color science engines, deterministic Linux infrastructure, and AI-native developer tooling.
+  Building developer tooling, color-science runtimes, and backend services with Rust, C++, Go, and WebAssembly.
 </p>
 
 ---
 
 </div>
 
-## About & Engineering Philosophy
+## About & Engineering Focus
 
-- **Systems-Level Performance:** Writing low-latency, memory-safe, and deterministic software in **Rust**, **C++**, and **Go**.
-- **Perceptual UI & WebAssembly:** Pioneering modern color science (OKLCH, APCA, CVD daltonism matrices) and sub-millisecond client-side execution via **WebAssembly** and **TypeScript**.
-- **Autonomous AI & Protocols:** Architecting native **Model Context Protocol (MCP)** servers and toolchains to bridge codebases with autonomous LLM workflows.
-- **Resilient Infrastructure:** Crafting idempotent, zero-dependency server hardening and container orchestration suites for mission-critical cloud deployments.
+- **Systems Programming:** Writing deterministic, memory-safe software in **Rust**, **C++**, and **Go**.
+- **Perceptual UI & WebAssembly:** Implementing color-science models (OKLCH, APCA contrast math, CVD simulation matrices) compiled to **WebAssembly** with **TypeScript** tooling.
+- **AI Protocols & Developer Tooling:** Architecting native **Model Context Protocol (MCP)** JSON-RPC 2.0 servers for IDE agents to inspect codebase ASTs and design tokens.
+- **Infrastructure & Provisioning:** Automated server provisioning suites and container orchestration workflows for Ubuntu 24.04 LTS.
 
 ---
 
@@ -37,12 +37,12 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/jonasmontero/rustbook">rustbook</a></h3>
-      <p><b>The blazing-fast, AI-native Storybook alternative in Rust & WebAssembly.</b></p>
+      <h3><a href="https://github.com/jonasmontero/rustbook-ds">rustbook</a></h3>
+      <p><b>Component isolation and documentation engine in Rust & WebAssembly.</b></p>
       <ul>
         <li>Native Axum HTTP server with <code>&lt; 5ms</code> startup time.</li>
-        <li>Sub-millisecond in-browser color calculations via WebAssembly.</li>
-        <li>Full Autodocs mode, live knobs, and built-in Model Context Protocol (MCP) server.</li>
+        <li>Client-side color calculations via WebAssembly.</li>
+        <li>Autodocs specification mode, live knobs, and built-in Model Context Protocol (MCP) server.</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
@@ -52,11 +52,11 @@
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/jonasmontero/colorust">colorust</a></h3>
-      <p><b>High-performance perceptual color science engine and contrast auditor in Rust.</b></p>
+      <p><b>Color-science engine implementing OKLCH, APCA contrast math, and CVD simulation.</b></p>
       <ul>
-        <li>Native OKLCH, Oklab, and sRGB bidirectional conversion pipelines.</li>
-        <li>Real-time APCA (Advanced Perceptual Contrast Algorithm) & WCAG 2.1.</li>
-        <li>11-step perceptual tonal palette generator and spectral CVD simulation.</li>
+        <li>OKLCH, Oklab, and sRGB bidirectional conversion pipelines.</li>
+        <li>Real-time APCA (Advanced Perceptual Contrast Algorithm) & WCAG 2.1 auditing.</li>
+        <li>11-step perceptual tonal palette generator and spectral CVD simulation matrices.</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
@@ -68,11 +68,11 @@
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/jonasmontero/vps-bootstrap">vps-bootstrap</a></h3>
-      <p><b>Idempotent, zero-dependency Ubuntu 24.04 LTS server hardening and container orchestration suite.</b></p>
+      <p><b>Automated server provisioning suite for Ubuntu 24.04 LTS.</b></p>
       <ul>
-        <li>Automated security baseline: SSH hardening, UFW firewall, Fail2ban, and auto-updates.</li>
-        <li>Containerized orchestration with Docker, Caddy reverse proxy, and automated SSL.</li>
-        <li>Zero external dependencies with comprehensive verification test harness.</li>
+        <li>Automated security baseline: SSH key hardening, UFW firewall, Fail2ban, and auto-updates.</li>
+        <li>Containerized orchestration with Docker, Caddy reverse proxy, and automated TLS certificates.</li>
+        <li>Idempotent POSIX shell scripts with verification test harness.</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Bash" />
@@ -82,11 +82,11 @@
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/jonasmontero/qr-code-generator">qr-code-generator</a></h3>
-      <p><b>High-performance, low-latency C++ QR Code generation engine.</b></p>
+      <p><b>QR Code generator in C++17 implementing ISO/IEC 18004 standards.</b></p>
       <ul>
-        <li>Bit-level Reed-Solomon error correction and deterministic matrix masking.</li>
-        <li>Zero-allocation vector SVG and high-resolution raster output pipelines.</li>
-        <li>Engineered for high-throughput batch generation in latency-critical services.</li>
+        <li>Bit-level Reed-Solomon error correction (levels L, M, Q, H) and matrix masking.</li>
+        <li>Vector SVG generation without dynamic heap allocations.</li>
+        <li>Engineered for deterministic batch generation in backend pipelines.</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
@@ -98,11 +98,11 @@
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/jonasmontero/lead-phone-validator">lead-phone-validator</a></h3>
-      <p><b>High-throughput phone number and lead validation microservice in Go.</b></p>
+      <p><b>Phone number and lead validation microservice in Go.</b></p>
       <ul>
         <li>Concurrent E.164 parsing, carrier detection, and syntax normalization.</li>
-        <li>Low memory footprint designed for horizontal scale and batch ingest pipelines.</li>
-        <li>Deterministic error handling and clean RESTful API contracts.</li>
+        <li>Low memory footprint designed for batch ingest pipelines and horizontal scaling.</li>
+        <li>Deterministic error handling and RESTful API endpoints.</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
@@ -115,8 +115,8 @@
       <p><b>Model Context Protocol (MCP) server for codebase-aware PRD generation.</b></p>
       <ul>
         <li>Bridges IDEs and AI agents directly to repository architectural state.</li>
-        <li>Extracts structural dependencies, schemas, and specifications deterministically.</li>
-        <li>Enables real-time requirements generation aligned with active source code.</li>
+        <li>Extracts structural dependencies, schemas, and ASTs deterministically.</li>
+        <li>Generates Product Requirement Documents aligned with active source code.</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/MCP-Protocol-10B981?style=flat-square" alt="MCP" />
@@ -128,11 +128,11 @@
   <tr>
     <td colspan="2" valign="top">
       <h3><a href="https://github.com/jonasmontero/ivoyager">ivoyager</a></h3>
-      <p><b>Offline-first multi-currency financial suite, multi-destination VET engine, and geospatial radar.</b></p>
+      <p><b>Offline-first multi-currency financial suite and geospatial radar mapping.</b></p>
       <ul>
         <li>Local-first IndexedDB caching architecture with optimistic sync pipelines.</li>
-        <li>Real-time multi-currency exchange conversion with localized tax engines.</li>
-        <li>Interactive geospatial radar with hardware acceleration and zero network dependency.</li>
+        <li>Multi-currency exchange calculations with localized tax engines.</li>
+        <li>Interactive geospatial radar with hardware acceleration and offline support.</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
@@ -146,15 +146,15 @@
 
 ---
 
-## Technical Arsenal
+## Technical Skills
 
 | Domain | Technologies & Tooling |
 | :--- | :--- |
 | **Systems & Low-Level** | Rust, C++, Go, WebAssembly (Wasm), POSIX Shell, Tokio, Axum |
-| **Frontend & Architecture** | TypeScript, Angular, React, Next.js, Web Components, SCSS, OKLCH Design Tokens |
-| **AI Systems & Protocols** | Model Context Protocol (MCP), Autonomous Agents, Tool-Calling Architectures |
-| **Infrastructure & DevOps** | Linux (Ubuntu 24.04), Docker, Caddy, Tailscale, UFW, GitHub Actions, CI/CD |
-| **Quality & Standards** | APCA & WCAG 2.1 Accessibility, TDD, Static Analysis, Zero-Allocation Optimization |
+| **Frontend & Developer Tooling** | TypeScript, Angular, React, Next.js, Web Components, SCSS, OKLCH Design Tokens |
+| **AI Systems & Protocols** | Model Context Protocol (MCP), Agent Tooling, JSON-RPC 2.0 Server Architectures |
+| **Infrastructure & DevOps** | Linux (Ubuntu 24.04 LTS), Docker, Caddy, Tailscale, UFW, Fail2ban, GitHub Actions, CI/CD |
+| **Quality & Standards** | APCA & WCAG 2.1 (AA/AAA), TDD, Static Analysis, Deterministic Memory Management |
 
 ---
 
@@ -170,7 +170,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Primary_Stack-Rust_•_C++_•_Go_•_TypeScript_•_Wasm-0284C7?style=flat-square&labelColor=0F172A" alt="Primary Stack" />
-  <img src="https://img.shields.io/badge/Architecture-Sub--5ms_Latency_•_Zero--Alloc_•_Type--Safe-10B981?style=flat-square&labelColor=0F172A" alt="Architecture" />
+  <img src="https://img.shields.io/badge/Architecture-Type--Safe_•_Deterministic_•_Accessible-10B981?style=flat-square&labelColor=0F172A" alt="Architecture" />
   <img src="https://img.shields.io/badge/CI_/_CD-GitHub_Actions_•_Automated_Testing-8B5CF6?style=flat-square&logo=githubactions&logoColor=white&labelColor=0F172A" alt="CI/CD" />
 </p>
 
@@ -178,7 +178,7 @@
 
 ---
 
-## Connect & Collaborate
+## Connect
 
 <div align="center">
   <a href="https://github.com/jonasmontero">
