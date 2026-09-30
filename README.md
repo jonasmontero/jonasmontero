@@ -37,20 +37,6 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/jonasmontero/rustbook-ds">rustbook</a></h3>
-      <p><b>Component isolation and documentation engine in Rust & WebAssembly.</b></p>
-      <ul>
-        <li>Native Axum HTTP server with <code>&lt; 5ms</code> startup time.</li>
-        <li>Client-side color calculations via WebAssembly.</li>
-        <li>Autodocs specification mode, live knobs, and built-in Model Context Protocol (MCP) server.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
-        <img src="https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white" alt="Wasm" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
       <h3><a href="https://github.com/jonasmontero/colorust">colorust</a></h3>
       <p><b>Color-science engine implementing OKLCH, APCA contrast math, and CVD simulation.</b></p>
       <ul>
@@ -60,12 +46,10 @@
       </ul>
       <p>
         <img src="https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
+        <img src="https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white" alt="Wasm" />
         <img src="https://img.shields.io/badge/Color_Science-0284C7?style=flat-square" alt="Color Science" />
-        <img src="https://img.shields.io/badge/APCA_/_WCAG-10B981?style=flat-square" alt="Accessibility" />
       </p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/jonasmontero/vps-bootstrap">vps-bootstrap</a></h3>
       <p><b>Automated server provisioning suite for Ubuntu 24.04 LTS.</b></p>
@@ -78,67 +62,6 @@
         <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Bash" />
         <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
         <img src="https://img.shields.io/badge/Security-Hardening-DC2626?style=flat-square" alt="Security" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/jonasmontero/qr-code-generator">qr-code-generator</a></h3>
-      <p><b>QR Code generator in C++17 implementing ISO/IEC 18004 standards.</b></p>
-      <ul>
-        <li>Bit-level Reed-Solomon error correction (levels L, M, Q, H) and matrix masking.</li>
-        <li>Vector SVG generation without dynamic heap allocations.</li>
-        <li>Engineered for deterministic batch generation in backend pipelines.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
-        <img src="https://img.shields.io/badge/Algorithms-8B5CF6?style=flat-square" alt="Algorithms" />
-        <img src="https://img.shields.io/badge/Vector_SVG-F97316?style=flat-square" alt="SVG" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/jonasmontero/lead-phone-validator">lead-phone-validator</a></h3>
-      <p><b>Phone number and lead validation microservice in Go.</b></p>
-      <ul>
-        <li>Concurrent E.164 parsing, carrier detection, and syntax normalization.</li>
-        <li>Low memory footprint designed for batch ingest pipelines and horizontal scaling.</li>
-        <li>Deterministic error handling and RESTful API endpoints.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
-        <img src="https://img.shields.io/badge/Concurrency-0284C7?style=flat-square" alt="Concurrency" />
-        <img src="https://img.shields.io/badge/Microservice-64748B?style=flat-square" alt="Microservice" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/jonasmontero/PRD-MCP-Server">PRD-MCP-Server</a></h3>
-      <p><b>Model Context Protocol (MCP) server for codebase-aware PRD generation.</b></p>
-      <ul>
-        <li>Bridges IDEs and AI agents directly to repository architectural state.</li>
-        <li>Extracts structural dependencies, schemas, and ASTs deterministically.</li>
-        <li>Generates Product Requirement Documents aligned with active source code.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/MCP-Protocol-10B981?style=flat-square" alt="MCP" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/AI_Tooling-6366F1?style=flat-square" alt="AI Tooling" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <h3><a href="https://github.com/jonasmontero/ivoyager">ivoyager</a></h3>
-      <p><b>Offline-first multi-currency financial suite and geospatial radar mapping.</b></p>
-      <ul>
-        <li>Local-first IndexedDB caching architecture with optimistic sync pipelines.</li>
-        <li>Multi-currency exchange calculations with localized tax engines.</li>
-        <li>Interactive geospatial radar with hardware acceleration and offline support.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/Offline--First-059669?style=flat-square" alt="Offline First" />
-        <img src="https://img.shields.io/badge/Geospatial-0284C7?style=flat-square" alt="Geospatial" />
-        <img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square" alt="PWA" />
       </p>
     </td>
   </tr>
